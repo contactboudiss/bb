@@ -10,6 +10,7 @@ namespace boudiss
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// ///boudiss mod1
         [STAThread]
         static void Main()
         {

@@ -1,0 +1,29 @@
+[1mdiff --git a/boudiss/Program.cs b/boudiss/Program.cs[m
+[1mindex f0840b2..3313a4c 100644[m
+[1m--- a/boudiss/Program.cs[m
+[1m+++ b/boudiss/Program.cs[m
+[36m@@ -10,6 +10,7 @@[m [mnamespace boudiss[m
+         /// <summary>[m
+         /// The main entry point for the application.[m
+         /// </summary>[m
+[32m+[m[32m        /// ///boudiss mod1[m
+         [STAThread][m
+         static void Main()[m
+         {[m
+[1mdiff --git a/boudiss/boudiss.csproj b/boudiss/boudiss.csproj[m
+[1mindex 6bbc0d6..7b755b3 100644[m
+[1m--- a/boudiss/boudiss.csproj[m
+[1m+++ b/boudiss/boudiss.csproj[m
+[36m@@ -49,6 +49,12 @@[m
+     <Compile Include="Form1.Designer.cs">[m
+       <DependentUpon>Form1.cs</DependentUpon>[m
+     </Compile>[m
+[32m+[m[32m    <Compile Include="Form2.cs">[m
+[32m+[m[32m      <SubType>Form</SubType>[m
+[32m+[m[32m    </Compile>[m
+[32m+[m[32m    <Compile Include="Form2.Designer.cs">[m
+[32m+[m[32m      <DependentUpon>Form2.cs</DependentUpon>[m
+[32m+[m[32m    </Compile>[m
+     <Compile Include="Program.cs" />[m
+     <Compile Include="Properties\AssemblyInfo.cs" />[m
+     <EmbeddedResource Include="Form1.resx">[m
